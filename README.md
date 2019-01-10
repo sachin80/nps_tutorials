@@ -11,7 +11,7 @@ These notebooks  aim at teaching you the fundamentals of Python3 and the followi
      $ git clone https://github.com/sachin80/nps_tutorials.git
      $ cd nps_tutorials
 
- If you do not want to install git, you can instead download [master.zip](https://github.com/sachin80/nps_tutorial/archive/   master.zip), unzip it, rename the resulting directory to `nps_tutorials` and move it to your development directory.
+ If you do not want to install git, you can instead download [master.zip](https://github.com/sachin80/nps_tutorial/archive/master.zip), unzip it, rename the resulting directory to `nps_tutorials` and move it to your development directory.
 
  ## Using Anaconda
  When using Anaconda, you can optionally create an isolated Python environment dedicated to this project. This is             recommended as it makes it possible to have a different environment for each project (e.g. one for this project), with       potentially different libraries and library versions:
