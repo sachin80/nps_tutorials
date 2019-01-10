@@ -22,6 +22,21 @@ These notebooks  aim at teaching you the fundamentals of Python3 and the followi
  This creates a fresh Python 3.5 environment called `mltutorials` (you can change the name if you want to), and it activates  it. This environment contains all the scientific libraries that come with Anaconda. This includes all the libraries we will  need (NumPy, Matplotlib, Pandas, Jupyter and a few others), except for TensorFlow, so let's install it:
 
      $ conda install -n mltutorials -c conda-forge tensorflow
- NORMAL   master   READ.md   +                                                                                   2%     1:1
 
+This installs the latest version of TensorFlow available for Anaconda (which is usually *not* the latest TensorFlow         version) in the `mltutorials` environment (fetching it from the `conda-forge` repository). If you chose not to create an   mltutorials` environment, then just remove the `-n mltutorials` option.
+
+ Next, you can optionally install Jupyter extensions. These are useful to have nice tables of contents in the notebooks, but  they are not required.
+
+     $ conda install -n mltutorials -c conda-forge jupyter_contrib_nbextensions
+
+ ## Starting Jupyter
+ If you want to use the Jupyter extensions (optional, they are mainly useful to have nice tables of contents), you first    need to install them:
+
+     $ jupyter contrib nbextension install --user
+
+ Okay! You can now start Jupyter, simply type:
+
+     $ jupyter notebook
+
+ This should open up your browser, and you should see Jupyter's tree view, with the contents of the current directory. If   your browser does not open automatically, visit [localhost:8888](http://localhost:8888/tree). Click on `index.ipynb` to get  started!
 
