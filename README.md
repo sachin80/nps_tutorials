@@ -23,9 +23,9 @@ These notebooks  aim at teaching you the fundamentals of Python3 and the followi
 
      $ conda install -n mltutorials -c conda-forge tensorflow
 
-This installs the latest version of TensorFlow available for Anaconda (which is usually *not* the latest TensorFlow         version) in the `mltutorials` environment (fetching it from the `conda-forge` repository). If you chose not to create an   mltutorials` environment, then just remove the `-n mltutorials` option.
-
- Next, you can optionally install Jupyter extensions. These are useful to have nice tables of contents in the notebooks, but  they are not required.
+This installs the latest version of TensorFlow available for Anaconda (which is usually *not* the latest TensorFlow         version) in the `mltutorials` environment (fetching it from the `conda-forge` repository). If you chose not to create an   `mltutorials` environment, then just remove the `-n mltutorials` option.
+ 
+ Next, you can optionally install Jupyter extensions. These are useful to have nice tables of contents in the notebooks, but they are not required.
 
      $ conda install -n mltutorials -c conda-forge jupyter_contrib_nbextensions
 
